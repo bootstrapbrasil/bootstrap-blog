@@ -1,6 +1,6 @@
-name:           Bootstrap Blog
-description:    Official blog for the Bootstrap framework.
-url:            http://blog.getbootstrap.com
+name:           Bootstrap Brasil Blog
+description:    Tradução do Blog Bootstrap Oficial pela comunidade Bootstrap Brasil..
+url:            http://bootstrapbrasil.github.io/bootstrap-blog
 
 markdown:       kramdown
 highlighter:    pygments

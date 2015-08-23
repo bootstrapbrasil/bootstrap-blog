@@ -1,7 +1,7 @@
-# Bootstrap blog
+# Bootstrap Brasil blog
 
-All content within `_posts/` is copyright Bootstrap. Do not reuse any part without written permission.
+Não use qualquer conteúdo em `_posts/` sem permissão.
 
-Made by [@mdo](https://twitter.com/mdo), built on [Jekyll](https://github.com/jekyll/jekyll), and hosted on [GitHub Pages](http://pages.github.com/).
+Criado por [@mdo](https://twitter.com/mdo), construído com [Jekyll](https://github.com/jekyll/jekyll), hospedado em [GitHub Pages](http://pages.github.com/) e traduzido pela comunidade [Bootstrap Brasil](https://github.com/bootstrapbrasil).
 
 <3
