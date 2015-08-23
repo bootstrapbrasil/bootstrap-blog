@@ -1,6 +1,7 @@
 name:           Bootstrap Brasil Blog
 description:    Tradução do Blog Bootstrap Oficial pela comunidade Bootstrap Brasil..
 url:            http://bootstrapbrasil.github.io/bootstrap-blog
+baseurl: 		/bootstrap-blog
 
 markdown:       kramdown
 highlighter:    pygments
