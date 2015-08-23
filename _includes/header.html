@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="http://gmpg.org/xfn/11" rel="profile">
-    <base href="{{ site.url }}">
 
     <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.name }}</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
     <!-- Favicons -->
-    <link rel="icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,7 +22,7 @@
     <![endif]-->
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS for Official Bootstrap Blog" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS para Blog Bootstra Brasil" href="{{ site.baseurl }}/feed.xml">
 
     <!-- Open Graph Tags -->
     <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
