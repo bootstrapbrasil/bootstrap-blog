@@ -13,7 +13,7 @@ Bootstrap 4 tem sido uma grande empreendimento que altera quase todas as linhas 
 
 ## O que há de novo
 
-[![Bootstrap 4 alpha](/img/2015/bs4-alpha.png)](http://v4-alpha.getbootstrap.com)
+[![Bootstrap 4 alpha](http://bootstrapbrasil.github.io/bootstrap-blog/img/2015/bs4-alpha.png)](http://v4-alpha.getbootstrap.com)
 
 Há uma tonelada de mudanças para Bootstrap e por isso é impossível descreve-los tudo aqui, então aqui vai algumas das nossas mudanças favoritas:
 
