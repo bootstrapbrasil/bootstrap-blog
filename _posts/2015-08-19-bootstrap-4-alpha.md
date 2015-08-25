@@ -56,7 +56,7 @@ Quando nós lançamos Bootstrap 3, nós imediatamente interrompido todo suporte 
 
 Além de divulgarmos a primeira versão alphao do Bootstrap 4 hoje, estamos também lançando nosso projeto paralelo mais recente, [Official Bootstrap Themes](http://themes.getbootstrap.com).
 
-[![Official Bootstrap Themes](/img/2015/bs-themes.png)](http://themes.getbootstrap.com)
+[![Official Bootstrap Themes](http://bootstrapbrasil.github.io/bootstrap-blog/img/2015/bs-themes.png)](http://themes.getbootstrap.com)
 
 <!--We've talked about building premium themes for Bootstrap since our earliest releases, but never quite found the time or ideal approach until earlier this year. We've poured hundreds of hours into these themes and consider them to be much more than traditional re-skins of Bootstrap. They've very much their own toolkits, just like Bootstrap.
 
