@@ -4,7 +4,7 @@ title: Lançado Bootstrap 3.3.6
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/l-O5IHVhWj0" width="760" height="570" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l-O5IHVhWj0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
 Bootstrap 3.3.6 está aqui! Esta é uma versão muito esperada que trás dezenas de correções de bugs CSS e atualizações na documentação. Nós tivemos mais de 180 commits e 100 issues fechadas e pull requests de quase 30 contribuidores desde nossa última versão. Woohoo!

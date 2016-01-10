@@ -4,7 +4,7 @@ title: Novo Bootstrap 4 alpha
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/J_kokTee01k" width="760" height="570" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" width="648" height="365" src="https://www.youtube.com/embed/J_kokTee01k" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Bootstrap 4 alpha 2 já está disponível. Desde nossa última versão, quase 100 pessoas fizeram envios em mais de 900 commits para a v4 e nós fechamos mais de 400 issues e pull requests. Esses números são exorbitantemente impressionantes de se ver, e ainda temos uma tonelada de trabalho pela frente neste ano para a v4.
