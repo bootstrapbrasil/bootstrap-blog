@@ -28,7 +28,7 @@ Aqui está um pouco das mudanças desde nosso último alpha:
 
 Nós altamente encorajamos pessoas a folhear através da [segunda milestone no GitHub](https://github.com/twbs/bootstrap/issues?q=milestone%3Av4.0.0-alpha.2+is%3Aclosed) para uma ideia melhor do que foi mudado sobre o projeto. Você pode também seguir junto com outros esforços da v4 com a [etiqueta <code>v4</code>](https://github.com/twbs/bootstrap/labels/v4) em nossa rastreadora de issue.
 
-Pronto pra mergulhar? Então, [caia de cabeça na documentação aplha v4](http://v4-alpha.getbootstrap.com/)!
+Pronto pra mergulhar? Então, [caia de cabeça na documentação aplha v4](http://getbootstrap.com.br/v4-alpha/)!
 
 Certifique-se de juntar-se a [nossa sala oficial no Slack](https://bootstrap-slack.herokuapp.com/)! e mergulhe em [nossa rastreadora de issue](https://github.com/twbs/bootstrap/issues/) com relatório de bugs, questões, e comentários geral sempre que possivel.
 
