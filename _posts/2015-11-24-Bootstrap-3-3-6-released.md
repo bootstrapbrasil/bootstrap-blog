@@ -7,7 +7,7 @@ title: Lançado Bootstrap 3.3.6
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l-O5IHVhWj0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
-Bootstrap 3.3.6 está aqui! Esta é uma versão muito esperada que trás dezenas de correções de bugs CSS e atualizações na documentação. Nós tivemos mais de 180 commits e 100 issues fechadas e pull requests de quase 30 contribuidores desde nossa última versão. Woohoo!
+Bootstrap 3.3.6 chegou! Esta é uma versão muito esperada que trás dezenas de correções de bugs CSS e atualizações na documentação. Nós tivemos mais de 180 commits, 100 issues fechadas e pull requests de quase 30 contribuidores desde nossa última versão. Woohoo!
 
 Aqui estão alguns dos destaques:
 
@@ -23,9 +23,9 @@ Para um colapso completo, leia a mudança de versão e a mileston v3.3.6.
 
 Baixe a última versão — código fonte, recursos compilados e documentação — como arquivo ZIP diretamente do GitHub:
 
-<p><a class="btn-link" href="https://github.com/twbs/bootstrap/archive/v3.3.5.zip">Download Bootstrap 3.3.5</a></p>
+<p><a class="btn-link" href="https://github.com/twbs/bootstrap/archive/v3.3.6.zip">Download Bootstrap 3.3.6</a></p>
 
-Bata o [repositório do projeto](https://github.com/twbs/bootstrap) ou [repositório Sass](https://github.com/twbs/bootstrap-sass) para mais opções. Além disso, lembre [nós estamos disponíveis no npm](https://www.npmjs.org/package/bootstrap), também.
+Visite o [repositório do projeto](https://github.com/twbs/bootstrap) ou [repositório Sass](https://github.com/twbs/bootstrap-sass) para mais opções. Além disso, lembre que [nós estamos disponíveis no npm](https://www.npmjs.org/package/bootstrap), também.
 
 
 {% highlight javascript %}
