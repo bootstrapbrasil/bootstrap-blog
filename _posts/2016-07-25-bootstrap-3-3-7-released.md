@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bootstrap 3.3.7 released
+title: Lançado Bootstrap 3.3.7
 version: 3.3.7
 ---
 
@@ -8,28 +8,28 @@ version: 3.3.7
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Kr0tTbTbmVA?rel=0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
-Bootstrap 3.3.7 is here! We've had over 220 commits and 80 closed issues and pull requests from nearly 30 contributors since our last release. Woohoo!
+Bootstrap 3.3.7 está vivo! Nós tivemos mais de 220 commits, 80 issues resolvidas e pull requests de quase 30 contribuidores desde o último lançamento. Woohoo!
 
-Here are some of the highlights:
+Alguns destaques são:
 
-- Added support for jQuery 3.
-- Added inline source files into sourcemap eliminating `4xx` errors on the CDN.
-- Updated several devDependencies and gems.
-- Removed unsupported vendor prefixes for `@viewport`.
+- Adicionado suporte para jQuery 3.
+- Adicionado código inline source em arquivos dentro sourcemap eliminando os erros `4xx` no CDN.
+- Atualizado vários devDependencies e gems.
+- Removido vendor prefixes sem suporte para `@viewport`.
 
-For a complete breakdown, [read the release changelog](https://github.com/twbs/bootstrap/releases/tag/v3.3.7) and the [v3.3.7 milestone](https://github.com/twbs/bootstrap/issues?q=milestone%3Av3.3.7+is%3Aclosed).
+Para mais detalhes, [leia o release changelog](https://github.com/twbs/bootstrap/releases/tag/v3.3.7) e o [v3.3.7 milestone](https://github.com/twbs/bootstrap/issues?q=milestone%3Av3.3.7+is%3Aclosed).
 
 ## Download Bootstrap
 
-Download the latest release—source code, compiled assets, and documentation—as a ZIP file directly from GitHub:
+Download do último código-fonte lançado, assets compilados, e documentação em um arquivo ZIP direto do GitHub:
 
 <a class="btn-link" href="https://github.com/twbs/bootstrap/archive/v3.3.7.zip">Download Bootstrap 3.3.7</a>
 
-Hit the [project repository](https://github.com/twbs/bootstrap) or [Sass repository](https://github.com/twbs/bootstrap-sass) for more options. Also, remember [we're available on npm](https://www.npmjs.org/package/bootstrap), too.
+Visite o [repositório do projeto](https://github.com/twbs/bootstrap) ou [respositório Sass](https://github.com/twbs/bootstrap-sass) para mais opções. Lembre-se, [estamos disponível via npm](https://www.npmjs.org/package/bootstrap) tambem.
 
 ## Bootstrap CDN
 
-After reviewing the changelog, update your CDN links to point to the v3.3.6 files:
+Depois de analisar o changelog, atualize seus links CDN para apontar para os arquivos v3.3.6:
 
 {% highlight html %}
 <!-- Latest compiled and minified CSS -->
@@ -45,3 +45,5 @@ After reviewing the changelog, update your CDN links to point to the v3.3.6 file
 <3,
 
 [@cvrebert](https://twitter.com/cvrebert) & [team](http://getbootstrap.com/about/#team)
+
+Tradução: [@adammacias](https://twitter.com/adammacias)
