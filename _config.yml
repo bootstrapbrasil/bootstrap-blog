@@ -8,5 +8,6 @@ highlighter:    pygments
 permalink:      pretty
 paginate:       5
 encoding:       UTF-8
+future:         true
 
 exclude:        ["README.md"]
