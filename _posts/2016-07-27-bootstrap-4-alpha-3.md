@@ -7,49 +7,49 @@ title: Bootstrap 4 Alpha 3
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/xFrGuyw1V8s?rel=0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
-Alpha 3 has landed! We have an overhauled grid, updated form controls, a new font stack, tons of bug fixes, and more. It's been several months since our last update, but the size of this update should help get us back on track.
+Alpha 3 pousou! Nós temos o sistema de grid reformulado, controles de formulários atualizados, um novo acervo de fonte, toneladas de correções de bugs, e muito mais. Tem sido vários meses desde a nossa última atualização, mas o tamanho dessa atualização deve ajudar-nos de volta aos trilhos.
 
-Work on Alpha 3 started rather broadly, addressing bug fixes and docs updates of all shapes and sizes, but finished with a narrow focus on our form controls and grid system. If you've followed the development in our `v4-dev` branch, you might already be familiar with some of these bigger changes.
+Os trabalhos sobre Alpha 3 iniciou bastante amplo, abordando correções de bugs e atualizações de docs de todas as formas e tamanhos, mas terminou com um foco estreito em nossos controles de formulário e sistema de grid. Se você seguiu o desenvolvimento no nosso branch `v4-dev`, você já deve estar familiarizado com algumas destas mudanças maiores.
 
-[Skip to the updated alpha docs site](http://v4-alpha.getbootstrap.com), or keep reading for the highlights.
+[Ir para o site da docs do alpha atualizada](http://v4-alpha.getbootstrap.com), or continue lendo para mais destaques.
 
-## Grid system
+## Sistema de grid
 
-The grid system was overhauled with three major pull requests—[#19099](https://github.com/twbs/bootstrap/pull/19099), [#20349](https://github.com/twbs/bootstrap/pull/20349), and [#20361](https://github.com/twbs/bootstrap/pull/20361). Those PRs largely focused on the following changes:
+O sistema de grid foi revisado com três grandes pull requests—[#19099](https://github.com/twbs/bootstrap/pull/19099), [#20349](https://github.com/twbs/bootstrap/pull/20349), e [#20361](https://github.com/twbs/bootstrap/pull/20361). Esses grandes PRs foram voltada para as seguintes mudanças:
 
-- Our ready-made grid classes (containers and columns) are now behind a Sass variable, meaning **grid classes can easily be disabled via Sass variable**. Update the boolean `$enable-grid-classes` variable and recompile to remove them.
+- Nossas classes de grid (containers e columns) estão agora atrás de uma variável Sass, que significa **classes de grid pode ser facilmente desativada através do Sass**. Atualize a variável booleana `$enable-grid-classes` e recompile para então removê-los.
 
-- **Grid modifier classes are simpler** and no longer require the `col-` prefix. For example, instead of `.col-offset-*-*`, `.col-push-*-*`, and `.col-pull-*-*`, we now have `.offset-*-*`, `.push-*-*`, and `.pull-*-*`.
+- **As classes modificadoras do Grid estão mais simples** e não requerem mais o prefixo `col-`. Por exemplo, ao invés de `.col-offset-*-*`, `.col-push-*-*`, e `.col-pull-*-*`, nós temos `.offset-*-*`, `.push-*-*`, e `.pull-*-*`.
 
-- **Mixins have been changed**, and then changed again, to in an effort to keep generated classes simple and cooperative between standard and flexbox modes. Our two primary column mixins are now `make-col-ready`, which houses the `position`, `padding-*`s, and `min-height` (to prevent collapsing empty columns), and `make-col` for setting the `float` and `width`.
+- **Mixins foram alterados**, e depois mudou de novo, um esforço para manter as classes geradas simples e cooperativa entre os modos standard e flexbox. Nossos dois mixins primário de coluna agora são `make-col-ready`, que abriga o `position`, `padding-*`s, e `min-height` (para evitar o colapso de colunas vazias), e `make-col` e configurando o `float` e `width`.
 
-- **Added a grid customization section to the docs** to explain how to change the number of columns, grid tier breakpoints, container widths, and more.
+- ** Adicionado uma seção de personalização de grid no docs** para exemplicar como alterar o número de colunas, pontos de interrupção da linha de grid, larguras de container, e muito mais.
 
-These changes are available in our standard grid, as well as our flexbox grid. More on that below.
+Estas alterações estão disponíveis em nosso standard grid, assim como a nosso flexbox grid. Mais sobre isso abaixo.
 
 ## Flexbox
 
-<img alt="Flexbox auto-layout" src="/img/2016/07/flex-cols.png" style="padding: 4px; border: 1px solid #eee;">
+<img alt="Flexbox auto-layout" src="{{ site.baseurl }}/img/2016/07/flex-cols.png" style="padding: 4px; border: 1px solid #eee;">
 
-Flexbox mode has been updated across the board in Alpha 3, starting from the grid system (it uses the same variable and the updated Sass mixins) and moving through our utilities and components.
+O modo flexbox foi atualizado no Alpha 3, a partir do sistema de grid (ele usa a mesma variável e os mixins Sass atualizados) e movendo-se através dos nossos serviços públicos e componentes.
 
-- **New flexbox grid docs.** In addition to the standard grid docs, we now have a dedicated docs page for our flexbox grid as it behaves slightly differently than the standard grid. This new page includes details on how and why this grid works the way it does, as well as additional code examples.
+-. **Novo docs flexbox grid** Além do docs standard grid, agora temos uma página no docs dedicado para nosso flexbox grid como ele se comporta de forma ligeiramente diferente do que o standard grid. Esta nova página inclui detalhes e maneira sobre como esse grid funciona, assim como exemplos de código adicionais.
 
-- **Automatic equal-width column sizing** with new `.col-{breakpoint}` classes. For example, for three equal-width columns at the `xs` breakpoint, you'd create three columns each with just `.col-xs`.
+- **Largura da coluna automática** com novas classes `.col-{breakpoint}`. Por exemplo, para o breakpoint de três colunas de largura iguais `xs`, você criar três colunas com cada uma com apenas `.col-xs`.
 
-- **New flexbox alignment utility classes** for vertically and horizontally distributing items. Works with our flexbox grid, as well as just about any other custom component.
+- **Novas classes utilitárias de alinhamento flexbox** para a distribuição dos itens verticalmente e horizontalmente. Funciona com nosso flexbox grid, bem como apenas sobre qualquer outro componente personalizado.
 
-## Forms
+## Formulários
 
-<img alt="Form validation states" src="/img/2016/07/forms.png" style="padding: 4px; border: 1px solid #eee;">
+<img alt="Form validation states" src="{{ site.baseurl }}/img/2016/07/forms.png" style="padding: 4px; border: 1px solid #eee;">
 
-Forms saw a ton of activity early on in Alpha 3's development. Documentation, class names, layout options, and validation styles have all been drastically improved.
+Formulários tiveram várias alterações durante o início do desenvolvimento do Alpha 3. Documentação, nomes de classe, opções de layout e estilos de validação têm sido drasticamente melhorada.
 
-- **New classes for checkboxes, radios, input sizing, and legends.** While not 100% final, all our form controls are named more clearly and consistently across our CSS.
+- **Novas classes para checkboxes, radios, tamanhos de input e legends.** Embora não seja 100% finais, todos os nossos controles de formulário estão nomeados de forma mais clara e consistente em toda a sua CSS.
 
-- **Replaced the base64 PNG background images [with inline SVGs](https://github.com/twbs/bootstrap/pull/17222)** for our custom form controls and validation states. Scale those form controls to your heart's content!
+- **Substituido as imagens de fundo PNG base64 com [inline SVGs](https://github.com/twbs/bootstrap/pull/17222)** para seus controles de formulários personalizados e estados de validação. Dimensione esses controles de formulário para o conteúdo do seu coração!
 
-- Speaking of validation states, we have **brand new form validation and help text options**. Validation states can now be applied on a per-input basis (with `.form-control-{state}`) and optional validation feedback can be shown with `.form-control-feedback`. Independent form help text can now be controlled with the new `.form-text` class.
+- Falando de estados de validação, temos **a nova identidade de validação dos formulários com opções de texto de ajuda**. Estados de validação podem agora ser aplicada em uma base (com `.form-control-{state}`) e opcionalmente com feedback de validação pode ser mostrado com `.form-control-feedback`. Agora o texto do formulário de ajuda independente pode ser controlada com a nova classe `.form-text`.
 
 {% highlight html %}
 <div class="form-group has-success">
@@ -66,34 +66,36 @@ Forms saw a ton of activity early on in Alpha 3's development. Documentation, cl
 </div>
 {% endhighlight %}
 
-- Fixed a few form related bugs, like the horizontal label padding in [#17498](https://github.com/twbs/bootstrap/issues/17498), misuse of `<fieldset>`s for form groups, sizing classes not applying to `<select>`s, and more.
+- Corrigido alguns bugs relacionados com formulário, como o preenchimento da label horizontal [#17498](https://github.com/twbs/bootstrap/issues/17498), uso indevido de `<fieldset>`s para formar grupos, classes de tamanho não aplicados nos `<select>`s, e muito mais.
 
-- **Documentation for forms has been overhauled.** We have simpler examples of our available form controls, clearer guidance on validation states (and when to use each), and more.
+- **Documentação para formulários foi revisada.** Temos exemplos mais simples de nossos controles de formulários disponíveis, orientações mais claras sobre os estados de validação (e quando usar cada um), e muito mais.
 
-## System fonts
+## Sistema de fonts
 
-We've replaced the decades old Helvetica/Arial font stack [with a system font stack](https://github.com/twbs/bootstrap/pull/19098), utilizing newer, more readable, and more powerful fonts that companies like Apple, Google, and Microsoft have specifically designed for today's devices.
+Nós substituímos as velha familia de font Helvetica/Arial [por fontes do sistema](https://github.com/twbs/bootstrap/pull/19098), utilizadas mais hoje em dia, mais legível, e fonts mais poderosas que empresas como a Apple, Google e Microsoft têm projetado especificamente para dispositivos de hoje.
 
-Originally this was planned to affect Linux users, but font usage and support is rather inconsistent across distros and user preferences. For that reason, there's no *intended* font change for folks on Linux.
+Originalmente isso foi planejado afetar os usuários do Linux, mas esse tipo de suporte é um pouco inconsistente. Por essa razão, não há nenhuma mudança de fonts destinado a pessoas que usam Linux.
 
-## And so much more...
+## E muito mais ...
 
-There were nearly 1,200 commits to Alpha 3 and this post barely scratches the surface. We've fixed dozens of other bugs and worked hard to improve our documentation across the board.
+Haviam cerca de 1.200 commits no Alpha 3 e este post mal pouco fala de todas as mudanças. Temos dezenas de outros bugs corrigidos e outras coisas melhoradas, como tambem nossa documentação.
 
-- [Improved form and button sizing](https://github.com/twbs/bootstrap/pull/19121)
-- [Cleaned up nav component variables](https://github.com/twbs/bootstrap/pull/18783)
-- [Renamed outline buttons](https://github.com/twbs/bootstrap/pull/18772) and [outline cards](https://github.com/twbs/bootstrap/pull/18774)
-- New classes, variables, and tons more!
+- [Melhorado o formulário e tamanhos de botões](https://github.com/twbs/bootstrap/pull/19121)
+- [Limpeza das váriavéis do componente de navegação/menu](https://github.com/twbs/bootstrap/pull/18783)
+- [Renomeados contorno de botões](https://github.com/twbs/bootstrap/pull/18772) e [contorno de cards](https://github.com/twbs/bootstrap/pull/18774)
+- Novas classes, variáveis e várias outras coisas!
 
-For more details on this release's changes, take a look at the [Alpha 3 ship list issue](https://github.com/twbs/bootstrap/issues/18480), as well as the [closed Alpha 3 milestone](https://github.com/twbs/bootstrap/milestone/35?closed=1).
+Para mais detalhes sobre as mudanças desse lançamento, visite nossa [lista de issue Alpha 3](https://github.com/twbs/bootstrap/issues/18480), como tambem as [milestone já fechadas do  Alpha 3](https://github.com/twbs/bootstrap/milestone/35?closed=1).
 
-**Anxious to jump in? Then [head to the v4 alpha docs!](http://v4-alpha.getbootstrap.com)**
+**Ancioso para experimentar? Então [visite nossa docs v4 alpha!](http://v4-alpha.getbootstrap.com)**
 
-Be sure to [join our official Slack room!](https://bootstrap-slack.herokuapp.com) and dive into [our issue tracker](https://github.com/twbs/bootstrap/issues/) with bug reports, questions, and general feedback whenever possible.
+Certifique-se de se [juntar a nossa sala no Slack! (Em Português)](http://bootstrapbrasil-slack.herokuapp.com/) ou tambem na [sala no Slack! (Em Inglês)](https://bootstrap-slack.herokuapp.com) e mergulhe em nossas novidades e relatórios de bugs, perguntas e receba nosso feedback geral sempre que possível.
 
-## What's next?
+## Qual é a próxima etapa?
 
-More exploration, more bugfixes, more docs updates, and, best of all, more alphas. The daily grind keeps us super busy these days, but we'll do our best to keep the momentum going. Stay tuned!
+Mais exploração, mais correções de bugs, mais atualizações de docs, e, o melhor de tudo, mais alphas. O trabalho diário nos mantém super ocupado estes dias, mas vamos fazer o nosso melhor para manter o ritmo. Fique ligado!
 
 <3,<br>
 [@mdo](https://twitter.com/mdo) & [team](https://github.com/twbs)
+
+Tradução: [@adammacias](https://twitter.com/adammacias)
