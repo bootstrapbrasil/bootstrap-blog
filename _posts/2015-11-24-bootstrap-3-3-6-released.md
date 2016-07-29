@@ -44,4 +44,4 @@ Visite o [repositório do projeto](https://github.com/twbs/bootstrap) ou [reposi
 
 [@mdo](https://twitter.com/mdo), [@fat](https://twitter.com/fat), & [team](https://github.com/twbs)
 
-Tradução: [@flaviacs](https://github.com/flaviacs)
+Tradução: [@flaviacs](https://github.com/flaviacs).

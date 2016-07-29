@@ -1,13 +1,30 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+kramdown:
+  auto_ids: true
+
+# Permalinks
+permalink:        pretty
+
+# Gems
+gems:
+  - jekyll-paginate
+
+# Setup
 name:           Bootstrap Brasil Blog
 description:    Tradução do Blog Bootstrap Oficial pela comunidade Bootstrap Brasil..
-url:            http://bootstrapbrasil.github.io/bootstrap-blog
-baseurl: 		/bootstrap-blog
+url:            http://getbootstrap.com.br/bootstrap-blog
+baseurl:        /bootstrap-blog
 
-markdown:       kramdown
-highlighter:    pygments
-permalink:      pretty
 paginate:       5
 encoding:       UTF-8
 future:         true
 
 exclude:        ["README.md"]
+
+# Links
+blog:             http://blog.getbootstrap.com
+expo:             http://expo.getbootstrap.com
+themes:           http://themes.getbootstrap.com
