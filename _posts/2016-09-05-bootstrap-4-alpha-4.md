@@ -7,7 +7,7 @@ title: Bootstrap 4 Alpha 4
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/p0OX_8YvFxA?rel=0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
-[Alpha 4 esta vivo](http://v4-alpha.getbootstrap.com) para corrigir o desagradável build, erros nos pacotes, alguns bugs CSS e inconsistências na documentação que adicionamos no nosso último lançamento.
+[Alpha 4 esta vivo](http://v4-alpha.getbootstrap.com) ([em Português](http://getbootstrap.com.br/v4)) para corrigir o desagradável build, erros nos pacotes, alguns bugs CSS e inconsistências na documentação que adicionamos no nosso último lançamento.
 
 Este é um pequeno release comparado aos nossos alphas anteriores, então aqui está o que foi atualizado:
 
