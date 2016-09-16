@@ -15,8 +15,7 @@ gems:
 # Setup
 name:           Bootstrap Brasil Blog
 description:    Tradução do Blog Bootstrap Oficial pela comunidade Bootstrap Brasil..
-url:            http://getbootstrap.com.br/bootstrap-blog
-baseurl:        /bootstrap-blog
+url:            http://blog.getbootstrap.com.br
 
 paginate:       5
 encoding:       UTF-8
@@ -26,5 +25,7 @@ exclude:        ["README.md"]
 
 # Links
 blog:             http://blog.getbootstrap.com
+expo:             http://expo.getbootstrap.com
+themes:           http://themes.getbootstrap.com
 expo:             http://expo.getbootstrap.com
 themes:           http://themes.getbootstrap.com
