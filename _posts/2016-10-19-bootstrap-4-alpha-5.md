@@ -15,13 +15,13 @@ Atualizamos nosso processo de compilação para incluir versões com todos nosso
 
 ### Grid atualizados
 
-Nosso grid foi atualizado e esta mais flexível do que nunca. Novidades no Alpha 5 são breakpoint grid gutters específicos. Isso mesmo, agora você pode personalizar a largura de gutters em cada nível e toda camada de grid, modificando o mapa Sass.
+Nosso grid foi atualizado e está mais flexível do que nunca. Novidades no Alpha 5 são breakpoint grid gutters específicos. Isso mesmo, agora você pode personalizar a largura de gutters em cada nível e toda camada de grid, modificando o mapa Sass.
 
 The `.container` behaviors have changed slightly in Alpha 5. We now set the `width` of each container alongside a `max-width: 100%;` to ensure proper rendering across browsers in both our default and flexbox modes. Similarly, we fixed a bug in our flexbox grid where columns didn't properly collapse at lower breakpoints.
 
-O comportamento do `.container` foi um pouco alterado no Alpha 5. Agora vamos definir o `width` para cada container ao lado de `max-width: 100%;` para garantir que fique o modo padrão e flexbox ambos fiquem adequado em qualquer navegador. Da mesma forma, corrigimos um bug em nosso grid flexbox onde colunas não estavam adaquadas em breakpoints menores. 
+O comportamento do `.container` foi um pouco alterado no Alpha 5. Agora vamos definir o `width` para cada container ao lado de `max-width: 100%;` para garantir que fique o modo padrão e flexbox ambos fiquem adequado em qualquer navegador. Da mesma forma, corrigimos um bug em nosso grid flexbox onde colunas não estavam adequadas em breakpoints menores. 
 
-Por último, nós mudamos um ponto breakpoint e dimensões do container. A camada `sm` container agora esta menor do que dimensões viewport e a camada `lg` foi modificada de `940px` para `960px` para o grid de 12 colunas fiquem mais limpo.
+Por último, nós mudamos um ponto breakpoint e dimensões do container. A camada `sm` container agora está menor do que dimensões viewport e a camada `lg` foi modificada de `940px` para `960px` para o grid de 12 colunas fiquem mais limpo.
 
 ### Revisão de Utilitários
 
@@ -33,7 +33,7 @@ Classes utilitárias tiveram bastante atenção em Alpha 5 e vai continuar no Al
 
 - Renomeado utilitário image, alterado de `.img-rounded` e `.img-circle` para `.rounded` e `.rounded-circle`, respectivamente.
 
-- Removido o `display: block;` de `.img-fluid` pois torna-se desnecessario para criar imagens responsivas (o `inline-block` padrão funciona muito bem como está).
+- Removido o `display: block;` de `.img-fluid` pois torna-se desnecessário para criar imagens responsivas (o `inline-block` padrão funciona muito bem como está).
 
 - Adicionado novo utilitário `vertical-align` com `.align-top`, `.align-middle`, e mais.
 
@@ -41,7 +41,7 @@ Veja outras questões em aberto em [Alpha 6 milestone](https://github.com/twbs/b
 
 ### Navbar atualizado
 
-Nós dedicamos um [enorme tempo na barra de navegação para Alpha 5](https://github.com/twbs/bootstrap/pull/19890), mas honestamente, não está finalizado. Em vez de retornar o progresso que fizemos até Alpha 6, nós incluimos algumas coisas meia-boca.
+Nós dedicamos um [enorme tempo na barra de navegação para Alpha 5](https://github.com/twbs/bootstrap/pull/19890), mas honestamente, não está finalizado. Em vez de retornar o progresso que fizemos até Alpha 6, nós incluímos algumas coisas meia-boca.
 
 Aqui está uma olhada no que há de novo, como ele funciona, e o que pode mudar no nosso próximo lançamento.
 
@@ -53,13 +53,13 @@ Aqui está uma olhada no que há de novo, como ele funciona, e o que pode mudar 
 
 - Com base nisso, nós **reformulados a integração do plugin collapse para barra de navegação responsiva**. Com a ajuda de algumas classes utilitárias e collapse para cada camada de grid, você pode facilmente escolher o breakpoint para recolher a sua barra de navegação sem ter que recompilar seu Sass. Também está incluído o auto re-estilo de menus suspensos em celular para que eles não escondem outros conteúdos navbar quando alternado.
 
-A barra de navegação é um complicado um há tanta funcionalidade e estilo que pode ir com elas. Temos [próximo esboços de grandes pedaços para a barra de navegação](https://github.com/twbs/bootstrap/issues/20937), mas provavelmente há mais que estamos gostariamos. Certifique-se de estar com componente atualizado antes de seu feedback.
+A barra de navegação é um complicado um há tanta funcionalidade e estilo que pode ir com elas. Temos [próximo esboços de grandes pedaços para a barra de navegação](https://github.com/twbs/bootstrap/issues/20937), mas provavelmente há mais que estamos gostaríamos. Certifique-se de estar com componente atualizado antes de seu feedback.
 
 ### Chegando o Alpha 6
 
 Estamos pensando em mais um grande lançamento alpha antes de entrar nas versões beta e mais estáveis. Ainda há mais a fazer em torno de nossos principais componentes — a barra de navegação, variantes flexbox, utilitários e accessibilty — para seguirmos em frente.
 
-Uma vez feito isso, vamos rever toda nossa documentação e atualizar todos os nossos exemplos de modelos para o mais a caracteristica mais recente . A partir daí vamos precisar de sua ajuda para testar essas alterações e reportar bugs. Fique atento para mais atualizações na medida que nos aproximamos para que a liberação.
+Uma vez feito isso, vamos rever toda nossa documentação e atualizar todos os nossos modelos de exemplos para os mais recentes. A partir daí vamos precisar de sua ajuda para testar essas alterações e reportar bugs. Fique atento para mais atualizações na medida que nos aproximamos para que a liberação.
 
 Até lá, fique com Alpha 5!
 
