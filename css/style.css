@@ -113,14 +113,11 @@ hr {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "SF Mono", Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: 85%;
+  font-size: 90%;
   color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
 }
 pre {
   display: block;
@@ -381,3 +378,14 @@ a.pagination-item:hover {
 
 {% include css/pygments-manni.css %}
 {% include css/theme.css %}
+
+iframe[data-url^="https://jsbin.com"] {
+  border-color: rgba(0,0,0,.1) !important;
+}
+
+@media (min-width: 1200px) {
+  .jsbin-wide {
+    margin-left: -226px;
+    margin-right: -226px;
+  }
+}

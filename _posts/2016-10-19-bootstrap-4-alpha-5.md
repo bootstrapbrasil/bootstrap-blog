@@ -49,7 +49,7 @@ Aqui está uma olhada no que há de novo, como ele funciona, e o que pode mudar 
 
 - Segundo, o **estilo padrão para brand e navegação em grande parte foi ajustado**. Estão com estilos global menos personalizados dando ênfase no posicionamento e flexibilidade.
 
-- Building on that, we **overhauled the collapse plugin integration for responsive navbars**. With the help of some utility clases and collapse classes for each grid tier, you can easily pick the breakpoint for collapsing your navbar without having to recompile your Sass. Also included is the auto restyling of dropdown menus for mobile so they no longer hide other navbar content when toggled.
+- Building on that, we **overhauled the collapse plugin integration for responsive navbars**. With the help of some utility classes and collapse classes for each grid tier, you can easily pick the breakpoint for collapsing your navbar without having to recompile your Sass. Also included is the auto restyling of dropdown menus for mobile so they no longer hide other navbar content when toggled.
 
 - Com base nisso, nós **reformulados a integração do plugin collapse para barra de navegação responsiva**. Com a ajuda de algumas classes utilitárias e collapse para cada camada de grid, você pode facilmente escolher o breakpoint para recolher a sua barra de navegação sem ter que recompilar seu Sass. Também está incluído o auto re-estilo de menus suspensos em celular para que eles não escondem outros conteúdos navbar quando alternado.
 
