@@ -7,34 +7,35 @@ title: Bootstrap 4 Beta
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/aQUlA8Hcv4s?rel=0" width="760" height="570" allowfullscreen></iframe>
 </div>
 
-[Two years in the making](/2015/08/19/bootstrap-4-alpha/), we finally have our first beta release of Bootstrap 4. In that time, we've broken all the things at least twenty-seven times over with nearly 5,000 commits, 650+ files changed, 67,000 lines added, and 82,000 lines deleted. We also shipped six major alpha releases, a trio of official Themes, and even a job board for good measure. Put simply? [It's about time.](https://www.youtube.com/watch?v=_J6-3l3hCm0)
+[Dois anos de fabricação](/2015/08/19/bootstrap-4-alpha/), finalmente temos nossa primeira versão beta do Bootstrap 4. Naquele tempo, quebramos todas as coisas, pelo menos, vinte e sete vezes, com quase 5.000 commits, 650+ arquivos mudados, 67.000 linhas adicionadas e 82.000 linhas foram excluídas. Nós também enviamos seis principais lançamentos alfa, um trio de Temas oficiais e até um quadro de trabalho para a boa medida. Simplificando? [Já estava na hora.](https://www.youtube.com/watch?v=_J6-3l3hCm0)
+ 
 
 ## Beta!?
 
-Long story short, shipping a beta means we're done breaking all your stuff until our next major version (v5). We're not perfect, but we'll be doing our best to keep all the classes, features, and docs URLs as they appear now in this release. We can always add more things, but we cannot take away.
+Longa história curta, enviar uma versão beta significa que acabamos de romper todas as suas coisas até nossa próxima versão principal (v5). Nós não somos perfeitos, mas estaremos fazendo o nosso melhor para manter todas as classes, recursos e URL docs como aparecem agora neste lançamento. Nós sempre podemos adicionar mais coisas, mas não podemos tirar.
 
-For those who haven't been using the v4 alpha releases, here are some highlights to get you caught up.
+Para aqueles que não estiveram usando os lançamentos alfa v4, aqui estão alguns destaques para ajudar você.
 
-- **Moved from Less to Sass.** Bootstrap now compiles faster than ever thanks to Libsass, and we join an increasingly large community of Sass developers.
-- **Flexbox and an improved grid system.** We've moved nearly everything to flexbox, added a new grid tier to better target mobile devices, and completely overhauled our source Sass with better variables, mixins, and now maps, too.
-- **Dropped wells, thumbnails, and panels for cards.** [Cards](https://getbootstrap.com/docs/4.0/components/card/) are a brand new component to Bootstrap, but they'll feel super familiar as they do nearly everything wells, thumbnails, and panels did, only better.
-- **Forked Normalize.css and consolidated all our HTML resets into a new CSS module, Reboot.** Normalize.css has taken a different path than we'd prefer, dropping some core CSS tweaks we've long depended upon. Reboot takes the core of Normalize.css and expands it to include more opinionated resets like `box-sizing: border-box`, margin tweaks, and more all in a single Sass file.
-- **Brand new customization options.** Instead of relegating style embellishments like gradients, transitions, shadows, grid classes, and more to a separate stylesheet like v3, we've moved all those options into Sass variables. Want default transitions on everything or to disable rounded corners? Simply update a variable and recompile.
-- **Dropped IE8 and IE9 support, dropped older browser versions, and moved to rem units for component sizing** to take advantage of newer CSS support. Aside from our grid, pixels have been swapped for rems and ems where appropriate to make responsive typography and component sizing even easier. Need support for IE8/IE9, Safari 8-, iOS 8-, etc? Keep using Bootstrap 3.
-- **Rewrote all our JavaScript plugins.** Every plugin has been rewritten in ES6 to take advantage of the newest JavaScript enhancements with new teardown methods, option type checking, new methods, and more.
-- **Improved auto-placement of tooltips, popovers, and dropdowns** thanks to the help of a library called [Popper.js](https://popper.js.org).
-- **Redesigned and improved documentation.** We redesigned it, rewrote it all in Markdown, and added a few handy plugins to streamline examples and code snippets to make working with our docs way easier. We also added an amazing new search form!
-- **New build tools** completely rewritten in npm scripts instead of Grunt, immensely simplifying the process of developing and contributing to Bootstrap.
-- **And so much more!** Custom form controls, a redesigned carousel, an overhauled navbar, HTML5 form validation styles, hundreds of responsive utility classes, new components, and more have also been included.
+- **Mudou-se de Less para Sass.** O Bootstrap agora compila mais rápido do que nunca graças ao Libsass, e nos juntamos a uma comunidade cada vez maior de desenvolvedores da Sass.
+- **Flexbox e um sistema de grade melhorado.** Mudamos quase tudo para a flexbox, adicionamos um novo nível de grade para melhor segmentar dispositivos móveis e revisamos completamente nossa fonte Sass com melhores variáveis, mixins e agora mapas.
+- **Dropped wells, thumbnails e panels para cards.** Os [Cards](https://getbootstrap.com/docs/4.0/components/card/) são um novo componente para o Bootstrap, mas eles se sentirão super familiares, como eles fazem quase tudo bem, thumbnails e panels fez, só que melhor.
+- **Forked Normalize.css e consolidou todas as nossas restaurações de HTML em um novo módulo CSS, Reboot.** O Normalize.css tomou um caminho diferente do que preferiria, deixando alguns ajustes básicos do CSS que há muito dependemos. O Reboot leva o núcleo do Normalize.css e o expande para incluir retornos mais opcionais, como `box-sizing: border-box`, ajustes de margem e mais tudo em um único arquivo Sass.
+- **Novas opções de personalização.** Em vez de relegar enfeites de estilo como gradientes, transições, sombras, classes de grade e mais para uma folha de estilos separada, como a v3, movemos todas essas opções para variáveis Sass. Deseja transições padrão em tudo ou para desativar cantos arredondados? Basta atualizar uma variável e recompilar.
+- **Abandonou o suporte IE8 e IE9**, caiu versões mais antigas do navegador, e se mudou para unidades rem para o dimensionamento componente para aproveitar o suporte CSS mais recente. Além da nossa grade, os pixels foram trocados para rems e ems, quando apropriado, para tornar a tipografia responsiva e o dimensionamento de componentes ainda mais fácil. Precisa de suporte para IE8 / IE9, Safari 8-, iOS 8-, etc? Continue usando o Bootstrap 3.
+- **Reescreveu todos os nossos plugins de JavaScript.** Cada plugin foi reescrito no ES6 para tirar proveito dos mais recentes aprimoramentos de JavaScript com novos métodos de desmontagem, verificação de tipo de opção, novos métodos e muito mais.
+- **Melhoria da auto-colocação de tooltips, popovers, e menus suspensos** graças à ajuda de uma biblioteca chamada [Popper.js](https://popper.js.org).
+- **Documentação redigada e melhorada.** Nós redesenhamos, reescrevemos tudo no Markdown e adicionamos alguns plugins acessíveis para simplificar exemplos e trechos de código para facilitar o trabalho com nossos documentos. Nós também adicionamos um incrível novo formulário de pesquisa!
+- **Novas ferramentas** de compilação completamente reescritas em scripts npm em vez de Grunt, imensamente simplificando o processo de desenvolvimento e contribuição para o Bootstrap.
+- **E muito mais!** Controles de formulário personalizados, um carrossel redesenhado, uma barra de navegação revisada, estilos de validação de formulário HTML5, centenas de classes de utilidade responsivas, novos componentes e muito mais também foram incluídos.
 
-Okay, phew, want to learn even more? Keep reading, or jump right to [those brand new docs](https://getbootstrap.com)!
+Ok, então, quer aprender ainda mais? Continue lendo ou vá diretamente para [esses novos documentos](https://getbootstrap.com)!
 
-## New look
-Bootstrap 4 has been sporting a slightly updated look throughout our alpha releases, but it wasn't until recently that we gave the docs and our components a refresh, too.
+## Novo Visual
+O Bootstrap 4 tem um aspecto levemente atualizado ao longo de nossas versões alfa, mas não foi até recentemente que nós demos os documentos e os nossos componentes também se refrescaram.
 
 [![Bootstrap 4 beta docs](/img/2017/bootstrap-4-beta.png)](https://getbootstrap.com)
 
-In addition to a new color palette and new systems fonts, we have a brand new layout for our documentation. New with this beta is an amazing search form powered by Algolia's [DocSearch](https://community.algolia.com/docsearch/), an improved page layout with stickied navbar and sidebar, and a new table of contents.
+Além de uma nova paleta de cores e fontes de novos sistemas, temos um novo layout para nossa documentação. Novo com este beta é um incrível formulário de pesquisa alimentado pela [DocSearch](https://community.algolia.com/docsearch/) da Algolia, um layout de página melhorado com barra lateral e barra lateral e um novo índice.
 
 ---
 
@@ -42,3 +43,5 @@ For more details on this release's changes, take a look at the [Beta 1 ship list
 
 <3,<br>
 [@mdo](https://twitter.com/mdo) & [team](https://github.com/twbs)
+
+Tradução: [@haynes](http://haynes.blog.br)
